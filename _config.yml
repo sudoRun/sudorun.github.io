@@ -35,7 +35,7 @@ google-analytics:
 #   id:               "kiko-plus"
 
 # URL
- url:                "https://sudorun.github.io" 
+url:                "https://sudorun.github.io" 
 # url:                "http://localhost:4000" 
 baseurl:            "" # the subpath of your site, e.g. /blog
 
