@@ -47,6 +47,25 @@ body {
     font-weight: 600;
 
     a {
+      color: $base-color; // #1b6ec2; //
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    span {
+      color: $oc-gray-5;
+    }
+
+  }
+  &-title2 {
+    margin: 0.3em 0;
+    font-size: 2.25em;
+    line-height: 1.2em;
+    font-weight: 600;
+
+    a {
       color: $base-color;
       &:hover,
       &:focus {
@@ -62,19 +81,27 @@ body {
 
   &-nav {
     a {
+     // font-weight: 900;
       color: $oc-gray-7;
       text-transform: lowercase;
       -webkit-transition: all .2s ease;
          -moz-transition: all .2s ease;
               transition: all .2s ease;
       margin-right: .3rem;
-
-      &:hover,
+      text-decoration: none;
+//==      &:hover,
       &:focus {
         color: $oc-gray-7;
         text-decoration: none;
       }
+      &:hover {
+        
+        color: black !important;
+        border-bottom: 1px dotted black ;
+      }
+      
     }
+
   }
 }
 
@@ -85,12 +112,17 @@ body {
   font-weight: 600;
   text-transform: uppercase;
 
+
   a {
     color: $base-color;
-
-    &:hover,
+    text-decoration: none;
+//    &:hover,
     &:focus {
       text-decoration: none;
+    }
+    &:hover {     
+      color: black !important;
+      border-bottom: 1px dotted black ;
     }
   }
 }
